@@ -9,6 +9,7 @@ function UstawCzas()
 	if (sekunda < 10) sekunda = "0" + sekunda;
 	document.getElementById("zegar").innerHTML = godzina + ":" + minuta + ":" + sekunda;
 	var dzien = data.getDate();
-	UstawLink(dzien);
+	UstawLink(minuta);
+	UstawSuchara(minuta);
 	setTimeout("UstawCzas()", 1000);
 }

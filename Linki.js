@@ -17,9 +17,9 @@ linki[14] = "https://pl.m.wikipedia.org/wiki/Tomek_w_krainie_kangur%C3%B3w";
 linki[15] = "https://www.instagram.com/p/CFflFgKBtv3/?igshid=17iqmo8sz7xlk";
 
 
-function UstawLink(dzien)
+function UstawLink(minuta)
 {
-	var ktorylink = (dzien % 16);
+	var ktorylink = (minuta % 16);
 	var nowya = '<a href="'+linki[ktorylink]+'" target="blank" class="zlinkiem"> <div class="elementylewa" id="randomlink2"> xd </div> </a>';
 	document.getElementById("randomlink").innerHTML = nowya;
 }

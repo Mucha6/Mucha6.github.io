@@ -82,10 +82,14 @@ body
 #glowny
 {
 	width: 540px;
-	background-color: #FFFFFF;
+	background-color: #EEEEEE;
 	height: 320px;
 	margin: 10px;
 	padding: 20px;
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 700;
 }
 
 #yt
