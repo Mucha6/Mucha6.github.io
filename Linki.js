@@ -18,7 +18,7 @@ linki[12] = "https://www.mjakmama24.pl/ciaza/dieta-i-suplementy/herbata-w-ciazy-
 
 function UstawLink(dzien)
 {
-	var ktorylink = (dzien % 12);
+	var ktorylink = (dzien % 25);
 	var nowya = '<a href="'+linki[ktorylink]+'" target="blank" class="zlinkiem"> xd </a>';
 	document.getElementById("randomlink").innerHTML = nowya;
 }
