@@ -12,7 +12,7 @@ linki[9] = "https://en.m.wikipedia.org/wiki/Chinese_characters";
 linki[10] = "https://pl.wikipedia.org/wiki/Wikipedia:Neutralny_punkt_widzenia";
 linki[11] = "https://es.pons.com/traducci%C3%B3n/polaco-espa%C3%B1ol/dziko";
 linki[12] = "https://www.mjakmama24.pl/ciaza/dieta-i-suplementy/herbata-w-ciazy-jaka-herbate-pic-w-ciazy-aa-Mrj3-hX4m-HjTA.html";
-
+linki[13] = "https://pl.m.wikipedia.org/wiki/Tomek_w_krainie_kangur%C3%B3w";
 
 
 
