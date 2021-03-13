@@ -19,7 +19,7 @@ linki[15] = "https://www.instagram.com/p/CFflFgKBtv3/?igshid=17iqmo8sz7xlk";
 
 function UstawLink(dzien)
 {
-	var ktorylink = (dzien % 25);
+	var ktorylink = (dzien % 16);
 	var nowya = '<a href="'+linki[ktorylink]+'" target="blank" class="zlinkiem"> xd </a>';
 	document.getElementById("randomlink").innerHTML = nowya;
 }
