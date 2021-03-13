@@ -91,7 +91,7 @@ body
 #yt
 {
 	float: left;
-	background-color: #FFFFFF;
+	background-color: #FF0000;
 	height: 130px;
 	width: 140px;
 	margin: 10px;
@@ -101,7 +101,7 @@ body
 #fb
 {
 	float: left;
-	background-color: #FFFFFF;
+	background-color: #4064AC;
 	height: 130px;
 	width: 140px;
 	margin: 10px;
@@ -123,4 +123,54 @@ a.zlinkiem
 {
 	color: #000000;
 	text-decoration: none;
+}
+
+#kejzi
+{
+	background-color: #FFB900;
+}
+
+#randomlink2
+{
+	background-color: #00A4EF;
+}
+
+#randomlink2:hover
+{
+	background-color: #0093DE;
+}
+
+#kejzi:hover
+{
+	background-color: #DDA800;
+}
+
+#findus
+{
+	background-color: #34A853;
+}
+
+#findus:hover
+{
+	background-color: #239742;
+}
+
+#fb
+{
+	background-color: #00A4EF;
+}
+
+#fb:hover
+{
+	background-color: #0093DE;
+}
+
+#yt
+{
+	background-color: #F25022;
+}
+
+#yt:hover
+{
+	background-color: #E14011;
 }
