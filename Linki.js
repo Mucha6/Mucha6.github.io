@@ -14,7 +14,7 @@ linki[11] = "https://es.pons.com/traducci%C3%B3n/polaco-espa%C3%B1ol/dziko";
 linki[12] = "https://www.mjakmama24.pl/ciaza/dieta-i-suplementy/herbata-w-ciazy-jaka-herbate-pic-w-ciazy-aa-Mrj3-hX4m-HjTA.html";
 linki[13] = "https://youtu.be/q_jHK98rhcs";
 linki[14] = "https://pl.m.wikipedia.org/wiki/Tomek_w_krainie_kangur%C3%B3w";
-
+linki[15] = "https://www.instagram.com/p/CFflFgKBtv3/?igshid=17iqmo8sz7xlk";
 
 
 function UstawLink(dzien)
