@@ -15,11 +15,12 @@ linki[12] = "https://www.mjakmama24.pl/ciaza/dieta-i-suplementy/herbata-w-ciazy-
 linki[13] = "https://youtu.be/q_jHK98rhcs";
 linki[14] = "https://pl.m.wikipedia.org/wiki/Tomek_w_krainie_kangur%C3%B3w";
 linki[15] = "https://www.instagram.com/p/CFflFgKBtv3/?igshid=17iqmo8sz7xlk";
+linki[16] = "https://www.domowe-wypieki.pl/przepisy/ciastka-male-wypieki/873-muffinki-z-czekolada";
 
 
 function UstawLink(minuta)
 {
-	var ktorylink = (minuta % 16);
+	var ktorylink = (minuta % 17);
 	var nowya = '<a href="'+linki[ktorylink]+'" target="blank" class="zlinkiem"> <div class="elementylewa" id="randomlink2"> xd </div> </a>';
 	document.getElementById("randomlink").innerHTML = nowya;
 }
