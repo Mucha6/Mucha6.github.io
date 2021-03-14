@@ -21,6 +21,6 @@ linki[16] = "https://www.domowe-wypieki.pl/przepisy/ciastka-male-wypieki/873-muf
 function UstawLink(minuta)
 {
 	var ktorylink = (minuta % 17);
-	var nowya = '<a href="'+linki[ktorylink]+'" target="blank" class="zlinkiem"> <div class="elementylewa" id="randomlink2"> xd </div> </a>';
+	var nowya = '<a href="'+linki[ktorylink]+'" target="blank" class="zlinkiem"> <div class="elementylewa" id="randomlink2"> <span class="duzaczcionka"> xd </span> </div> </a>';
 	document.getElementById("randomlink").innerHTML = nowya;
 }

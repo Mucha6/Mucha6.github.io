@@ -82,13 +82,14 @@ body
 
 #glowny
 {
+	font-family: 'Arima Madurai', cursive;
 	width: 540px;
 	background-color: #F6A8AE;
 	height: 320px;
 	margin: 10px;
 	padding: 20px;
 	text-align: center;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: 700;
 }
 
@@ -175,4 +176,10 @@ a.zlinkiem
 #yt:hover
 {
 	background-color: #C06DA2;
+}
+
+.duzaczcionka
+{
+	font-family: 'Arima Madurai', cursive;
+	font-size: 70px;
 }
