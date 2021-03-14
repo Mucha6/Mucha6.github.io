@@ -36,7 +36,6 @@ suchary[33] = "– Dlaczego dorośli pytają dzieci, kim chcą zostać w przysz�
 suchary[34] = "– Dlaczego nie da się zjeść zegarka? <br/>– Bo to zbyt czasochłonne <br/>";
 suchary[35] = "Tata pyta Jasia:– Po co Ci w domu łopata i kompas? <br/>– Zamierzam posprzątać w moim pokoju <br/>";
 
-
 function UstawSuchara(minuta)
 {
 	var ktorysuchar = (minuta % 31);
