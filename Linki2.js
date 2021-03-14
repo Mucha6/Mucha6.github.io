@@ -45,9 +45,9 @@ linki[42] = "https://pbs.twimg.com/profile_images/495157428745678848/_iUW0sIC.jp
 linki[43] = "https://pl.wikipedia.org/wiki/Rugby_union";
 linki[44] = "https://pl.wikipedia.org/wiki/Kategoria:Niemieccy_kultury%C5%9Bci";
 
-function UstawLink(minuta)
+function UstawLink()
 {
-	var ktorylink = (minuta % 45);
-	var nowya = '<a href="'+linki[ktorylink]+'" target="blank" class="zlinkiem"> <div class="elementylewa" id="randomlink2" > <span class="duzaczcionka"> xd </span> </div> </a>';
+	var ktorylink = Math.floor(Math.random() * 45);
+	var nowya = '<a href="'+linki[ktorylink]+'" target="blank" class="zlinkiem"> <div class="elementylewa" id="randomlink2" onclick="UstawLink()"> <span class="duzaczcionka"> xd </span> </div> </a>';
 	document.getElementById("randomlink").innerHTML = nowya;
 }
