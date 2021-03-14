@@ -82,7 +82,7 @@ body
 #glowny
 {
 	width: 540px;
-	background-color: #EEEEEE;
+	background-color: #F6A8AE;
 	height: 320px;
 	margin: 10px;
 	padding: 20px;
@@ -95,7 +95,6 @@ body
 #yt
 {
 	float: left;
-	background-color: #FF0000;
 	height: 130px;
 	width: 140px;
 	margin: 10px;
@@ -105,7 +104,6 @@ body
 #fb
 {
 	float: left;
-	background-color: #4064AC;
 	height: 130px;
 	width: 140px;
 	margin: 10px;
@@ -129,52 +127,52 @@ a.zlinkiem
 	text-decoration: none;
 }
 
-#kejzi
-{
-	background-color: #FFB900;
-}
-
 #randomlink2
 {
-	background-color: #00A4EF;
+	background-color: #F6A8AE;
 }
 
 #randomlink2:hover
 {
-	background-color: #0093DE;
+	background-color: #E5979D;
+}
+
+#kejzi
+{
+	background-color: #EBA3C7;
 }
 
 #kejzi:hover
 {
-	background-color: #DDA800;
+	background-color: #DA92B6;
 }
 
 #findus
 {
-	background-color: #34A853;
+	background-color: #F287B6;
 }
 
 #findus:hover
 {
-	background-color: #239742;
+	background-color: #E176A5;
 }
 
 #fb
 {
-	background-color: #00A4EF;
+	background-color: #A489BF;
 }
 
 #fb:hover
 {
-	background-color: #0093DE;
+	background-color: #9378AD;
 }
 
 #yt
 {
-	background-color: #F25022;
+	background-color: #D07FB3;
 }
 
 #yt:hover
 {
-	background-color: #E14011;
+	background-color: #C06DA2;
 }
