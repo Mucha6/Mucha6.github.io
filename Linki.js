@@ -48,6 +48,6 @@ let linki = [
 
 function UstawLink()
 {
-	let ktorylink = Math.floor(Math.random() * 45);
+	let ktorylink = Math.floor(Math.random() * linki.length);
 	document.getElementById("randomlink").innerHTML = `<a href="${linki[ktorylink]}" target="blank" class="zlinkiem"><div class="elementylewa" id="randomlink2" onclick="UstawLink()"> <span class="duzaczcionka"> xd </span></div></a>`;
 }
