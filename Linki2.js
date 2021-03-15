@@ -1,4 +1,4 @@
-var linki = new Array(31);
+var linki = new Array(45);
 linki[0] = "https://www.youtube.com/channel/UC70N5rd4k6--UNJ4eXx675g";
 linki[1] = "https://aniagotuje.pl/przepis/parowki-w-ciescie-francuskim";
 linki[2] = "https://images.app.goo.gl/rbEHGfqcX3yNt2G47";
