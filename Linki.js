@@ -50,3 +50,5 @@ const UstawLink = () =>
 {
 	document.getElementById("randomlink").innerHTML = `<a href="${linki[Math.floor(Math.random() * linki.length)]}" target="blank" class="zlinkiem"><div class="elementylewa" id="randomlink2" onclick="UstawLink()"> <span class="duzaczcionka"> xd </span></div></a>`;
 }
+
+UstawLink()
