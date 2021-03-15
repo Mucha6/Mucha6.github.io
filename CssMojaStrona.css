@@ -48,10 +48,11 @@ body
 	float: left;
 	width: 240px;
 	background-color: #FFFFFF;
-	height: 130px;
 	margin: 10px;
-	padding: 20px;
 	text-align: center;
+	padding: 20px;
+	padding-top: 50px; 
+	height: 100px;
 }
 
 #zlinkiem
@@ -181,5 +182,5 @@ a.zlinkiem
 .duzaczcionka
 {
 	font-family: 'Arima Madurai', cursive;
-	font-size: 70px;
+	font-size: 50px;
 }
