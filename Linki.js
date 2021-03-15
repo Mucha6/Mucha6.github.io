@@ -1,4 +1,4 @@
-let linki = [
+const linki = [
 	"https://www.youtube.com/channel/UC70N5rd4k6--UNJ4eXx675g",
 	"https://aniagotuje.pl/przepis/parowki-w-ciescie-francuskim",
 	"https://images.app.goo.gl/rbEHGfqcX3yNt2G47",
@@ -46,8 +46,7 @@ let linki = [
 	"https://pl.wikipedia.org/wiki/Kategoria:Niemieccy_kultury%C5%9Bci"
 ];
 
-function UstawLink()
+const UstawLink = () =>
 {
-	let ktorylink = Math.floor(Math.random() * linki.length);
-	document.getElementById("randomlink").innerHTML = `<a href="${linki[ktorylink]}" target="blank" class="zlinkiem"><div class="elementylewa" id="randomlink2" onclick="UstawLink()"> <span class="duzaczcionka"> xd </span></div></a>`;
+	document.getElementById("randomlink").innerHTML = `<a href="${linki[Math.floor(Math.random() * linki.length)]}" target="blank" class="zlinkiem"><div class="elementylewa" id="randomlink2" onclick="UstawLink()"> <span class="duzaczcionka"> xd </span></div></a>`;
 }
