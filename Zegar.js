@@ -10,7 +10,11 @@ const UstawCzas = () =>
 
 	document.getElementById("zegar").innerHTML = godzina + ':' + minuta + ':' + sekunda
 
-	UstawSuchara(minuta)
+	if (UstawSuchara !== undefined)
+	{
+		UstawSuchara(minuta)
+	}
+	
 	setTimeout(UstawCzas, 1000)
 }
 
