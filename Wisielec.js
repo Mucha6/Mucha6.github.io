@@ -1,4 +1,4 @@
-var haslo1 = "DAM DARAM DARAM DARAM";
+var haslo1 = "TRZEBA BYŁO CHYBA ŻE NIE";
 
 var haslo2 = "";
 
