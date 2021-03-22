@@ -7,7 +7,9 @@ const UstawCzas = () =>
 	if (minuta < 10) minuta = '0' + minuta
 	let sekunda = data.getSeconds()
 	if (sekunda < 10) sekunda = '0' + sekunda
+
 	document.getElementById("zegar").innerHTML = godzina + ':' + minuta + ':' + sekunda
+
 	UstawSuchara(minuta)
 	setTimeout(UstawCzas, 1000)
 }

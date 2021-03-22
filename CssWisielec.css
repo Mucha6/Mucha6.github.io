@@ -1,0 +1,110 @@
+body
+{
+	background-color: #565B66;
+	color: white;
+	font-size: 40px;
+	font-family: 'Syne Mono', monospace;
+}
+
+#pudelko
+{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#obrazki
+{
+	float: left;
+	width: 48%;
+	margin-top: 0px;
+	margin-left: 20px;
+	height: 320px;
+}
+
+#dhaslo
+{
+	float: left;
+	width: 48%;
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 320px;
+	text-align: center;
+	font-size: 50px;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	font-size: 70px;
+}
+
+#alfabet
+{
+	width: 1120px;
+	margin-right: 10px;
+	margin-left: 10px;
+	height: 200px;
+	text-align: center;
+}
+
+.litera
+{
+	width: 44px;
+	height: 44px;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	border: 3px solid #FFFFFF;
+	float: left;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+.litera:hover
+{
+	background-color: #444444;
+}
+
+.odnowa
+{
+	cursor: pointer;
+	font-size: 70px;
+}
+
+.odnowa:hover 
+{
+	color: #4E8550;
+}
+
+
+
+
+#prostokat
+{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 70px;
+	letter-spacing: 4px;
+	margin-top: 30px;
+	color: #FFFFFF;
+}
+
+#logo
+{
+	float: left;
+	padding: 10px;
+	padding-left: 4px;
+	width: 48%;
+}
+
+#zegar
+{
+	float: left;
+	padding: 10px;
+	width: 48%;
+	text-align:  center;
+}
+
+a.zlinkiem
+{
+	color: white;
+	text-decoration: none;
+}
