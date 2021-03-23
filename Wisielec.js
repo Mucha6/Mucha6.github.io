@@ -10,7 +10,7 @@ const hasla = [
 	'ZŁOTY WIEK KULTURY POLSKIEJ',
 	'KUKUŁKA KUKA',
 	'ROKSI KARBON',
-	'WTF YOLO XD',
+	'WTF YOLO IKSDE',
 	'ALTERNATYWNA JESIENIARA',
 	'ELUWINA TAK KAŻDY DZIEŃ SIĘ MÓJ ZACZYNA',
 	'TOMEK TRAKTOR',
@@ -32,6 +32,9 @@ const hasla = [
 	'DŻIZAS BICZ',
 	'AJNOŁRAJT',
 	'RANDOMAJZING',
+	'JEZUS NA ULANYM KRZYŻU',
+	'TWOJE OCZY HIPNOTAJZING',
+	'MASZ POTENSZAL',
 ]
 
 var haslo1 = hasla[Math.floor(Math.random() * hasla.length)];
