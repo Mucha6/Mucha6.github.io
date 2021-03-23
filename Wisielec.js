@@ -5,7 +5,7 @@ const hasla = [
 	'NOT FAR APYL TRI',
 	'COŚ SIĘ KOŃCZY COŚ ZACZYNA',
 	'A TO ZAWSZE ZOSI WINA',
-	'KOGO W NOCY SWĘDZI DUPA, TEMU RANO ŚMIERDZI PALEC',
+	'KOGO W NOCY SWĘDZI DUPA TEMU RANO ŚMIERDZI PALEC',
 	'GDZIE KUCHAREK SZEŚĆ PRZEPLATA TROCHĘ OD JABŁONI TAKI SYN',
 	'ZŁOTY WIEK KULTURY POLSKIEJ',
 	'KUKUŁKA KUKA',
@@ -31,6 +31,7 @@ const hasla = [
 	'A WŁAŚNIE ŻE NIEE',
 	'DŻIZAS BICZ',
 	'AJNOŁRAJT',
+	'RANDOMAJZING',
 ]
 
 var haslo1 = hasla[Math.floor(Math.random() * hasla.length)];
@@ -120,8 +121,10 @@ function Check(nr)
 		WypiszHaslo();
 	}
 	
-	if (zle >= 8)
+	if (zle >= 8) {
 		document.getElementById("alfabet").innerHTML = "Phi, pasztecik! <br> <br> <span class='odnowa' onclick='location.reload()'> EGEN? </span>";
+		document.getElementById('dhaslo').innerHTML = haslo1;
+	}
 }
 
 
