@@ -156,7 +156,7 @@ function Check(nr)
 
 // klawiatura
 document.addEventListener("keydown", e => {
-	if (new Date().getHours() === 10 && new Date().getMinutes() === 24)
+	if (new Date().getHours() === 21 && new Date().getMinutes() === 37)
 		papiezowa = true;
 	const numer = litery.indexOf(e.key.toUpperCase());
 	if (numer >= 0)
@@ -165,5 +165,5 @@ document.addEventListener("keydown", e => {
 });
 
 
-if (new Date().getHours() === 10 && new Date().getMinutes() === 24)
+if (new Date().getHours() === 21 && new Date().getMinutes() === 37)
 	papiezowa = true;
